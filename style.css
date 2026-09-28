@@ -1,0 +1,238 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    border:border-box;
+}
+.navbar{
+    background-color: black;
+    height: 60px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(".vscode/navin.jpg");
+    height: 50px;
+    width:100%;
+    background-size: cover;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.add-fir{
+    font-size: 0.85rem;
+    color: #cccccc;
+    margin-left: 15px;
+}
+.add-sec{
+    font-size: 1rem;  
+    margin-left: 25px; 
+}
+.nav-search{
+    display: flex;
+    width: 620px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.search-select{
+    background-color: #cccccc;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius:4px;
+
+}
+.search-input{
+    width: 100%;
+    font-size:1rem;
+    border: none;
+     border-top-right-radius: 4px;
+    border-bottom-right-radius:4px;
+
+}
+/* Box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.nav-search:hover{
+    border: 2px solid orange;
+}
+.nav-cart{
+    font-weight: 700;
+    font-size: 15px;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.panel-Deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.Hero-section{
+    display: flex;
+}
+p1{
+    background-image: url("Hero.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+b{
+    font-size: 20px;
+}
+h3{
+    font-size: 15px;
+}
+p2{
+    background-image: url("brus.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+b{
+    font-size: 25px;
+    font-weight: 1000px;
+    margin: 5px;
+}
+h4{
+    font-weight: 500;
+    font-size: 12px;
+    margin: 5px;
+}
+p3{
+    background-image: url("ear.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+#v1{
+    font-size: 22px;
+}
+#v2{
+    font-size: 12px;
+}
+#v3{
+    font-size: 20px;
+}
+p4{
+    background-image: url("watch.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+p5{
+    background-image: url("t-shirt.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+b{
+    margin: 15px;
+}
+#l2{
+    margin-left: 5px;
+}
+p6{
+    background-image: url("cover.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+    color: #cccccc;
+}
+#n1{
+    font-weight: 200;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+#n2{
+    font-size: 10px;
+}
+c1{
+    font-size: 20px;
+}
+
+p7{
+    background-image: url("shoes.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+#c3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+.second-section{
+    display: flex;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#a1{
+    background-image: url("bra.png");
+    width: 190px;
+    height: 300px;
+    background-size: contain;
+}
+#b1{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+}
+#b2{
+    font-size: 17px;
+    font-weight: 100;
+    margin: 5px;
+
+}
+#a2{
+    background-image:url("navin.png");
+    width: 190px;
+    height: 300px;
+    background-size: cover;
+    margin: 5px;
+}
+c1{
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 30px;
+}
+c2{
+    color: white;
+    margin-left: 10px;
+}
+c3{
+    color: white;
+}
